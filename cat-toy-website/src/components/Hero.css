@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #fffdfb;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 160px;
+
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 50px;
+  
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 520px;
+}
+
+.hero-right {
+  flex: 1;
+  position: relative;
+  height: 650px;
+}
+
+.hero-tag {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+
+  border-radius: 999px;
+  background: #fff5ef;
+  color: #f97316;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero h1 {
+  margin-bottom: 28px;
+
+  font-size: 64px;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  font-weight: 800;
+
+  color: #1f2937;
+}
+
+.hero-description {
+  max-width: 500px;
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  line-height: 1.8;
+
+  color: #6b7280;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 16px 34px;
+  border-radius: 999px;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: transform 0.25s, background 0.25s;
+}
+
+.primary-btn {
+  background: #f97316;
+  color: #fff;
+  border: none;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: #fff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.secondary-btn:hover {
+  background: #f9fafb;
+}
+
+.main-ring {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border: 32px solid #f97316;
+  border-radius: 50%;
+  top: 50%;
+  left: 60%;  
+  transform: translate(-50%, -50%);
+}
+
+.blue-ring {
+  position: absolute;
+  top: 110px;
+  left: 130px;
+
+  width: 90px;
+  height: 90px;
+
+  border: 15px solid #3b82f6;
+  border-radius: 50%;
+}
+
+.green-ring {
+  position: absolute;
+  top: 340px;
+  left: 160px;
+
+  width: 70px;
+  height: 70px;
+
+  border: 14px solid #10b981;
+  border-radius: 50%;
+}
+
+.yellow-ring {
+  position: absolute;
+  right: 40px; 
+  bottom: 30px;
+   top: 430px;
+  right: 100px;
+
+  width: 80px;
+  height: 80px;
+
+  border: 15px solid #facc15;
+  border-radius: 50%;
+}
+
+.hero-features {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #6b7280;
+}
+.feature-icon {
+  font-size: 16px;
+}
